@@ -23,6 +23,7 @@ const bannerList = [
 ];
 
 const Banner = () => {
+  const [] = useState("")
   const [searchInput, setSearchInput] = useState("");
   const [filteredProducts, setfilteredProducts] = useState("");
   return (
