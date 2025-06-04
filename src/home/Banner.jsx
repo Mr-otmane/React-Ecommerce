@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import productData from "../products.json";
+import productData from "../products.json"
 
 const title = (
   <h2>
