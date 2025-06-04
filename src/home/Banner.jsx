@@ -23,8 +23,8 @@ const bannerList = [
 ];
 
 const Banner = () => {
-  const [searchInput, setSearchInput] = useState("")
   const [searchInput, setSearchInput] = useState("");
+
   const [filteredProducts, setfilteredProducts] = useState("");
   return (
     <div className="banner-section style-4">
