@@ -38,6 +38,7 @@ const Banner = () => {
               name="search"
               id="search"
               placeholder="Search your product"
+              value={searchInput}
             />
           </form>
         </div>
