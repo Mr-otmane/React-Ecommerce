@@ -10,10 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@popperjs/core":"^2.11.8",
     "bootstroap": "^5.3.2", 
     "localforage": "^1.10.0",
     "match-sorter": "^8.0.2",
     "react": "^19.1.0",
+    "react-bootstrap":"^2.9.0",
+    "react-countup":"^6.4.2",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.1",
     "sort-by": "^1.2.0"

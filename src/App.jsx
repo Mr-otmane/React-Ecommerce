@@ -1,15 +1,10 @@
-import { Outlet } from "react-router-dom";
 import "./App.css";
-
-import Navitems from "./components/Navitems";
 
 function App() {
   return (
     <>
-      <Navitems />
-      <Outlet />
+      <h1 className="text-primary m-5 pt-5">Hello,React Developper</h1>
     </>
   );
 }
-
 export default App;
