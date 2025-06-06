@@ -9,9 +9,25 @@ const Navitems = () => {
   window.addEventListener("scroll", () => {
     if (window.screenY > 200) {
       setHeaderFixed(true);
+    } else {
+      setHeaderFixed(false);
     }
   });
-  return <div>Navitems</div>;
+  return (
+    <header>
+      {/* header top start */}
+      <div>
+        <div className="container">
+          <div className="header-top-area">
+            <Link to="/signup" className='lab-btn me-3'>
+              <span>Create Account</span>
+            </Link>
+            <Link to="/login">Log in</Link>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
 };
 
 export default Navitems;
