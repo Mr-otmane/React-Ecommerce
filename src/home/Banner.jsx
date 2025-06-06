@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import productData from "../products.json"
+import productData from "../products.json";
 
 const title = (
   <h2>
@@ -28,12 +28,11 @@ const Banner = () => {
   const [filteredProducts, setfilteredProducts] = useState(productData);
   // console.log(productData)
 
-
   // Search funtionality
 
-  const handleSearch = e => {
-    console.log(e.target.value)
-  }
+  const handleSearch = (e) => {
+    console.log(e.target.value);
+  };
   return (
     <div className="banner-section style-4">
       <div className="container">
