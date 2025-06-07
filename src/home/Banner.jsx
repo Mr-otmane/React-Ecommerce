@@ -3,7 +3,7 @@ import productData from "../products.json";
 
 const title = (
   <h2>
-    Search Your One From <span>Thousand</span> of Products
+    Search Your One From <span>tiw tiw</span> of Products
   </h2>
 );
 const desc = "We have the largest collection of products";
