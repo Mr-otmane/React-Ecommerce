@@ -18,7 +18,7 @@ const Navitems = () => {
   return (
     <header>
       {/* header top start */}
-      <div>
+      <div className={`header-top d-md-none ${socialToggle ? "open" : ""}`}>
         <div className="container">
           <div className="header-top-area">
             <Link to="/signup" className="lab-btn me-3">
