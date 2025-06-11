@@ -21,7 +21,7 @@ const Navitems = () => {
       <div>
         <div className="container">
           <div className="header-top-area">
-            <Link to="/signup"></Link>
+            <Link to="/signup">Create Account</Link>
           </div>
         </div>
       </div>
