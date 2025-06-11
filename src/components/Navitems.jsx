@@ -16,7 +16,11 @@ const Navitems = () => {
   });
 
   return (
-    <header className={`header-section style-4 ${headerFixed ? "header-fixed fadeInup" : ""}`}>
+    <header
+      className={`header-section style-4 ${
+        headerFixed ? "header-fixed fadeInup" : ""
+      }`}
+    >
       {/* header top start */}
       <div className={`header-top d-md-none ${socialToggle ? "open" : ""}`}>
         <div className="container">
@@ -30,6 +34,8 @@ const Navitems = () => {
       </div>
 
       {/* header botton */}
+
+      <div className="header-bottom"></div>
     </header>
   );
 };
