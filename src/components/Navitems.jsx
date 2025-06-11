@@ -1,9 +1,32 @@
-import React from 'react'
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navitems = () => {
-  return (
-    <div>Navitems</div>
-  )
-}
+  const [menuToggle, setMenuToggle] = useState(false);
+  const [socialToggle, setSocialToggle] = useState(false);
+  const [headerFixed, setHeaderFixed] = useState(false);
 
-export default Navitems
+  // addevent listener
+  window.addEventListener("scroll", () => {
+    if (window.screenY > 200) {
+      setHeaderFixed(true);
+    } else {
+      setHeaderFixed(false);
+    }
+  });
+
+  return (
+    <header>
+      {/* header top start */}
+      <div>
+        <div className="container">
+          <div className="header-top-area">
+            <Link to="/sigup"></Link>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Navitems;
