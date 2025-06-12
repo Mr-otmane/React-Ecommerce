@@ -47,6 +47,18 @@ const Navitems = () => {
                 </Link>
               </div>
             </div>
+
+            {/* menu area */}
+            <div className="menu-area">
+                <div className="menu">
+                    <ul>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/">Home</Link></li>
+                    </ul>
+                </div>
+            </div>
           </div>
         </div>
       </div>
