@@ -37,7 +37,10 @@ const Navitems = () => {
 
       <div className="header-bottom">
         <div className="container">
-            <div className="header-wrapper"></div>
+            <div className="header-wrapper">
+                {/* logo */}
+                
+            </div>
         </div>
       </div>
     </header>
