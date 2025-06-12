@@ -40,6 +40,10 @@ const Navitems = () => {
             <div className="header-wrapper">
                 {/* logo */}
                 <div className='logo-search-acte'>
+                    <div className="logo">
+                        <Link to={"/"}>
+                        <img src="" alt="" /></Link>
+                    </div>
 
                 </div>
             </div>
