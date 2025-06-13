@@ -79,7 +79,11 @@ const Navitems = () => {
               </Link>
 
               {/* menu toggler */}
-              
+
+              <div className={`header-bar`}>
+
+              </div>
+
             </div>
           </div>
         </div>
