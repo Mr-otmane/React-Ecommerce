@@ -51,7 +51,7 @@ const Navitems = () => {
             {/* menu area */}
             <div className="menu-area">
               <div className="menu">
-                <ul className={`lab-ul ${menuToggle}`}>
+                <ul className={`lab-ul ${menuToggle ? "active" : ""}`}>
                   <li>
                     <Link to="/">Home</Link>
                   </li>
