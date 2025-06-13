@@ -69,7 +69,8 @@ const Navitems = () => {
                   </li>
                 </ul>
 
-                <Link>
+                <Link to="sign-up" className="lab-btn me-3 d-none d-md-block">
+                  Create Account
                 </Link>
               </div>
             </div>
