@@ -80,10 +80,7 @@ const Navitems = () => {
 
               {/* menu toggler */}
 
-              <div className={`header-bar`}>
-
-              </div>
-
+              <div className={`header-bar d-lg-none ${menuToggle ? "" : ""}`}></div>
             </div>
           </div>
         </div>
