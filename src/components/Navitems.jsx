@@ -77,6 +77,9 @@ const Navitems = () => {
               <Link to="/login" className="d-none d-md-block">
                 Log In
               </Link>
+
+              {/* menu toggler */}
+              
             </div>
           </div>
         </div>
