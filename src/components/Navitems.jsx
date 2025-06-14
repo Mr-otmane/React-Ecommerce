@@ -87,6 +87,7 @@ const Navitems = () => {
                 <span></span>
                 <span></span>
               </div>
+              {/* social toggler */}
             </div>
           </div>
         </div>
