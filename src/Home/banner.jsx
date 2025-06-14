@@ -26,7 +26,11 @@ const Banner = () => {
   return (
     <div className="banner-section style-4">
       <div className="container">
-        <div className="banner-content">{title}</div>
+        <div className="banner-content">{title}
+            <form>
+                
+            </form>
+        </div>
       </div>
     </div>
   );
