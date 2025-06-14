@@ -89,7 +89,8 @@ const Navitems = () => {
                 <span></span>
               </div>
               {/* social toggler */}
-              <div className="ellepsis-bar d-md-none">
+              <div className="ellepsis-bar d-md-none"
+              onClick={() => setSocialToggle(!socialToggle)}>
                 <i className="icofont-info-square"></i>
               </div>
             </div>
