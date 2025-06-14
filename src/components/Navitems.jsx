@@ -80,7 +80,8 @@ const Navitems = () => {
 
               {/* menu toggler */}
 
-              <div onClick={() => setMenuToggle(!menuToggle)}
+              <div
+                onClick={() => setMenuToggle(!menuToggle)}
                 className={`header-bar d-lg-none ${menuToggle ? "active" : ""}`}
               >
                 <span></span>
@@ -88,6 +89,7 @@ const Navitems = () => {
                 <span></span>
               </div>
               {/* social toggler */}
+              <i className="icofont-info-square"></i>
             </div>
           </div>
         </div>
