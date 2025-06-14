@@ -1,6 +1,10 @@
 import React from "react";
 
-const title = <h2>Search Your One From Thousand Of Products</h2>;
+const title = (
+  <h2>
+    Search Your One From <span>Thousand</span> Of Products
+  </h2>
+);
 
 const desc = "we have the largest collection of products";
 const bannerList = [
