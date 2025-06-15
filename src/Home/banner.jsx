@@ -1,4 +1,5 @@
-import React from "react";
+
+import React, { useState } from "react";
 import productData from "../products.json";
 
 const title = (
@@ -26,6 +27,7 @@ const bannerList = [
 const Banner = () => {
   
   const [searchInput, setSearchInput] = useState("");
+  const [filteredProducts, setfilteredProducts] = useState("");
 
   return (
     <div className="banner-section style-4">
