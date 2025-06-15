@@ -54,17 +54,19 @@ const Banner = () => {
               value={searchInput}
               onChange={handleSearch}
             />
-            <button></button>
+            <button type="submit">
+              <i class="icofont-search"></i>
+            </button>
           </form>
-         <p>{desc}</p>
-         <ul className="lab-ul">
-            {
-                searchInput && filteredProducts.map((product, i) => <li key={i}>
-                    <Link to={`/shop/${product.id}`}>{product.name}</Link>
-                </li> )
-            }
-
-         </ul>
+          <p>{desc}</p>
+          <ul className="lab-ul">
+            {searchInput &&
+              filteredProducts.map((product, i) => (
+                <li key={i}>
+                  <Link to={`/shop/${product.id}`}>{product.name}</Link>
+                </li>
+              ))}
+          </ul>
         </div>
       </div>
     </div>
