@@ -55,7 +55,7 @@ const Banner = () => {
               onChange={handleSearch}
             />
             <button type="submit">
-              <i class="icofont-search"></i>
+              <i className="icofont-search"></i>
             </button>
           </form>
           <p>{desc}</p>
