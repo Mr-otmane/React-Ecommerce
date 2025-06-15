@@ -37,8 +37,7 @@ const Banner = () => {
     const filtered = productData.filter((product) =>
       product.name.toLowerCase().includes(searchTerm.tolowerCase())
     );
-    setfilteredProducts
-    
+    setfilteredProducts(filtered);
   };
   return (
     <div className="banner-section style-4">
@@ -55,6 +54,7 @@ const Banner = () => {
               onChange={handleSearch}
             />
           </form>
+          <p>{desc}</p>
         </div>
       </div>
     </div>
