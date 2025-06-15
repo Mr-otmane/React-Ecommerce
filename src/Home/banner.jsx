@@ -25,8 +25,8 @@ const bannerList = [
 
 const Banner = () => {
   const [searchInput, setSearchInput] = useState("");
-  const [filteredProducts, setfilteredProducts] = useState("");
-  console.log(productData);
+  const [filteredProducts, setfilteredProducts] = useState(productData);
+  //   console.log(productData);
   return (
     <div className="banner-section style-4">
       <div className="container">
@@ -37,7 +37,7 @@ const Banner = () => {
               type="text"
               none="search"
               id="search"
-              placeholder="Search your product"
+              placeholder="Search your product" value={searchInput}
             />
           </form>
         </div>
