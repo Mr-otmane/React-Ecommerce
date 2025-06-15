@@ -28,7 +28,10 @@ const Banner = () => {
   const [filteredProducts, setfilteredProducts] = useState(productData);
   //   console.log(productData);
 
-  // 
+  // search funtionality 
+  const handleSearch = e => {
+    console.log(e.target.value)
+  }
   return (
     <div className="banner-section style-4">
       <div className="container">
