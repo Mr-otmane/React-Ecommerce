@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import productData from "../products.json";
+import { Link } from "react-router-dom";
 
 const title = (
   <h2>
@@ -57,7 +58,9 @@ const Banner = () => {
           <p>{desc}</p>
           <ul className="lab-ul">
             {
-                searchInput && filteredProducts.map((product, i) => <li></li>)
+                searchInput && filteredProducts.map((product, i) => <li key={i}>
+                    <Link></Link>
+                </li>)
             }
 
           </ul>
