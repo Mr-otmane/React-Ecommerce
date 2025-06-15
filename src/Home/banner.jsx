@@ -55,15 +55,7 @@ const Banner = () => {
               onChange={handleSearch}
             />
           </form>
-          <p>{desc}</p>
-          <ul className="lab-ul">
-            {
-                searchInput && filteredProducts.map((product, i) => <li key={i}>
-                    <Link>{product.name}</Link>
-                </li>)
-            }
-
-          </ul>
+         <p>{desc}</p>
         </div>
       </div>
     </div>
