@@ -32,6 +32,13 @@ const Banner = () => {
   const handleSearch = (e) => {
     const searchTerm = e.target.value;
     setSearchInput(searchTerm);
+
+    // filtering products based on search
+    const filtered = productData.filter((product) =>
+      product.name.toLowerCase().includes(searchTerm.tolowerCase())
+    );
+    setfilteredProducts
+    
   };
   return (
     <div className="banner-section style-4">
