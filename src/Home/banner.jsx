@@ -57,7 +57,7 @@ const Banner = () => {
           <p>{desc}</p>
           <ul className="lab-ul">
             {
-                searchInput && filteredProducts.map(())
+                searchInput && filteredProducts.map((product, i) => <li></li>)
             }
 
           </ul>
