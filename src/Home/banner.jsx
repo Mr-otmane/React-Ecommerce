@@ -28,10 +28,11 @@ const Banner = () => {
   const [filteredProducts, setfilteredProducts] = useState(productData);
   //   console.log(productData);
 
-  // search funtionality 
-  const handleSearch = e => {
-    console.log(e.target.value)
-  }
+  // search funtionality
+  const handleSearch = (e) => {
+    const searchTerm = e.target.value;
+    setSearchInput(searchTerm);
+  };
   return (
     <div className="banner-section style-4">
       <div className="container">
@@ -42,7 +43,9 @@ const Banner = () => {
               type="text"
               none="search"
               id="search"
-              placeholder="Search your product" value={searchInput} onChange={handleSearch}
+              placeholder="Search your product"
+              value={searchInput}
+              onChange={handleSearch}
             />
           </form>
         </div>
