@@ -47,7 +47,7 @@ const Banner = () => {
         <div className="banner-content">
           {title}
           <form>
-            <SelectedCategory/>
+            <SelectedCategory seLect={"all"}/>
             <input
               type="text"
               none="search"
