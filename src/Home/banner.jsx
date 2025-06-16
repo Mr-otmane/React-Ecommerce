@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import productData from "../products.json";
 import { Link } from "react-router-dom";
+import SelectedCategory from "../components/SelectedCategory";
 
 const title = (
   <h2>
@@ -46,6 +47,7 @@ const Banner = () => {
         <div className="banner-content">
           {title}
           <form>
+            <SelectedCategory/>
             <input
               type="text"
               none="search"
