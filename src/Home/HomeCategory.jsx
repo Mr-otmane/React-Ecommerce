@@ -43,7 +43,11 @@ const categoryList = [
 ];
 
 const HomeCategory = () => {
-  return <div className="category-section style-4 padding-tb"></div>;
+  return <div className="category-section style-4 padding-tb">
+    <div className="container">
+        
+    </div>
+  </div>;
 };
 
 export default HomeCategory;
