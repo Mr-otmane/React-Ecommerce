@@ -45,7 +45,7 @@ title: 'Home Decor',
 
 const HomeCategory = () => {
   return (
-    <div>HomeCategory</div>
+    <div className=''></div>
   )
 }
 
