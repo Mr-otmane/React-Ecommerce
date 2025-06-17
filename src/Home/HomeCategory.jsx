@@ -45,7 +45,11 @@ const categoryList = [
 const HomeCategory = () => {
   return <div className="category-section style-4 padding-tb">
     <div className="container">
-        
+        {/* seaction header */}
+        <div className="section-header">
+            
+        </div>
+
     </div>
   </div>;
 };
