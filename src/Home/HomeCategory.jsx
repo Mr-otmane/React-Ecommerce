@@ -48,6 +48,7 @@ const HomeCategory = () => {
         {/* seaction header */}
         <div className="section-header text-center">
             <span className="subtitle">{subTitle}</span>
+            <h2>{}</h2>
 
         </div>
 
