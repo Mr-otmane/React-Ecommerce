@@ -53,11 +53,12 @@ const HomeCategory = () => {
         </div>
         {/* section card */}
         <div className="section-wrapper">
-          <div className="row g-4 justify-center row-cols-md-3 row-cols-sm-2">
+          <div className="row g-4 justify-center row-cols-md-3 row-cols-sm-2 row-cols-1">
             {categoryList.map((val, i) => (
               <div key={i} className="col">
                 <Link to="/shop" className="category-item">
                   <div className="category-inner">
+                    {/* image thumbnail */}
                     <div className="category-thumb">
                       <img src={val.imgUrl} alt="" />
                     </div>
