@@ -77,8 +77,11 @@ const HomeCategory = () => {
               </div>
             ))}
           </div>
+          {/* btn get started */}
           <div>
-            <Link><span>{btnText}</span></Link>
+            <Link to="/shop" className="lab-btn">
+              <span>{btnText}</span>
+            </Link>
           </div>
         </div>
       </div>
