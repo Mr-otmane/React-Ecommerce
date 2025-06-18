@@ -55,8 +55,10 @@ const HomeCategory = () => {
         <div className="section-wrapper">
             <div>
                 {
-                    categoryList.map((val, i) => (<div key={i}>
-                        <Link></Link>
+                    categoryList.map((val, i) => (<div key={i} className="col">
+                        <Link to="/shop" className="category-item">
+                        <div></div>
+                        </Link>
                     </div>))
                 }
             </div>
