@@ -65,9 +65,12 @@ const HomeCategory = () => {
 
                     {/* content */}
                     <div className="category-content">
-                        <div className="cate-icon">
-                            <i></i>
-                        </div>
+                      <div className="cate-icon">
+                        <i className={val.iconName}></i>
+                      </div>
+                      <Link>
+                        <h6>{val.title}</h6>
+                      </Link>
                     </div>
                   </div>
                 </Link>
