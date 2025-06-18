@@ -57,7 +57,11 @@ const HomeCategory = () => {
                 {
                     categoryList.map((val, i) => (<div key={i} className="col">
                         <Link to="/shop" className="category-item">
-                        <div></div>
+                        <div className="category-inner">
+                            <div>
+                                <img src={val.imgUrl} alt="" />
+                            </div>
+                        </div>
                         </Link>
                     </div>))
                 }
