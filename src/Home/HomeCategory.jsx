@@ -64,7 +64,11 @@ const HomeCategory = () => {
                     </div>
 
                     {/* content */}
-                    <div className="category-content"></div>
+                    <div className="category-content">
+                        <div className="cate-icon">
+                            <i></i>
+                        </div>
+                    </div>
                   </div>
                 </Link>
               </div>
