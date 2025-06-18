@@ -2,7 +2,7 @@ import React from "react";
 const subTitle = "Choose Any Products";
 const title = "Buy Everything with Us";
 const btnText = "Get Started Now";
-
+import { Link } from "react-router-dom";
 const categoryList = [
   {
     imgUrl: "src/assets/images/category/01.jpg",
@@ -43,33 +43,33 @@ const categoryList = [
 ];
 
 const HomeCategory = () => {
-  return <div className="category-section style-4 padding-tb">
-    <div className="container">
+  return (
+    <div className="category-section style-4 padding-tb">
+      <div className="container">
         {/* seaction header */}
         <div className="section-header text-center">
-            <span className="subtitle">{subTitle}</span>
-            <h2 className="title">{title}</h2>
-
+          <span className="subtitle">{subTitle}</span>
+          <h2 className="title">{title}</h2>
         </div>
         {/* section card */}
         <div className="section-wrapper">
-            <div>
-                {
-                    categoryList.map((val, i) => (<div key={i} className="col">
-                        <Link to="/shop" className="category-item">
-                        <div className="category-inner">
-                            <div>
-                                <img src={val.imgUrl} alt="" />
-                            </div>
-                        </div>
-                        </Link>
-                    </div>))
-                }
-            </div>
+          <div>
+            {categoryList.map((val, i) => (
+              <div key={i} className="col">
+                <Link to="/shop" className="category-item">
+                  <div className="category-inner">
+                    <div>
+                      <img src={val.imgUrl} alt="" />
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            ))}
+          </div>
         </div>
-
+      </div>
     </div>
-  </div>;
+  );
 };
 
 export default HomeCategory;
