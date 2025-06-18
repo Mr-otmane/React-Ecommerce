@@ -62,6 +62,9 @@ const HomeCategory = () => {
                     <div className="category-thumb">
                       <img src={val.imgUrl} alt="" />
                     </div>
+
+                    {/* content */}
+                    <div className="category-content"></div>
                   </div>
                 </Link>
               </div>
