@@ -52,6 +52,7 @@ const HomeCategory = () => {
 
         </div>
         {/* section card */}
+        <div className="section-wrapper"></div>
 
     </div>
   </div>;
