@@ -58,7 +58,7 @@ const HomeCategory = () => {
               <div key={i} className="col">
                 <Link to="/shop" className="category-item">
                   <div className="category-inner">
-                    <div>
+                    <div className="category-thumb">
                       <img src={val.imgUrl} alt="" />
                     </div>
                   </div>
