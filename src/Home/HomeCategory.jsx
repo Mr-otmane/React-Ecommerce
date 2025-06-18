@@ -52,7 +52,15 @@ const HomeCategory = () => {
 
         </div>
         {/* section card */}
-        <div className="section-wrapper"></div>
+        <div className="section-wrapper">
+            <div>
+                {
+                    categoryList.map((val, i) => (<div key={i}>
+                        <Link></Link>
+                    </div>))
+                }
+            </div>
+        </div>
 
     </div>
   </div>;
