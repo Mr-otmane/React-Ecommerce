@@ -78,7 +78,7 @@ const ProductData = [
 
 const CategoryShowCase = () => {
     const [items, setItems] = useState(ProductData);
-  return <div>CategoryShowCase</div>;
+  return <div className="course-section style-3 padding-tb"></div>;
 };
 
 export default CategoryShowCase;
