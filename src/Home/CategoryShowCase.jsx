@@ -79,8 +79,10 @@ const CategoryShowCase = () => {
   const [items, setItems] = useState(ProductData);
   return (
     <div className="course-section style-3 padding-tb">
-      <div className="course-shape">
+      <div className="course-shape one">
         <img src="/src/assets/images/shape-img/icon/01.png" alt="" />
+      </div>
+      <div className="course-shape two">
         <img src="/src/assets/images/shape-img/icon/02.png" alt="" />
       </div>
     </div>
