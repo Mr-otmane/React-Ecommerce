@@ -81,6 +81,7 @@ const CategoryShowCase = () => {
     <div className="course-section style-3 padding-tb">
       <div>
         <img src="/src/assets/images/shape-img/icon/01.png" alt="" />
+        <img src="/src/assets/images/shape-img/icon/02.png" alt="" />
       </div>
     </div>
   );
