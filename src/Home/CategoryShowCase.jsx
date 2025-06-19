@@ -75,10 +75,15 @@ const ProductData = [
   },
 ];
 
-
 const CategoryShowCase = () => {
-    const [items, setItems] = useState(ProductData);
-  return <div className="course-section style-3 padding-tb"></div>;
+  const [items, setItems] = useState(ProductData);
+  return (
+    <div className="course-section style-3 padding-tb">
+      <div>
+        <img src="/src/assets/images/shape-img/icon/01.png" alt="" />
+      </div>
+    </div>
+  );
 };
 
 export default CategoryShowCase;
