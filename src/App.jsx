@@ -5,8 +5,8 @@ import Navitems from "./components/Navitems";
 function App() {
   return (
     <>
-    <Navitems/>
-      <Outlet/>
+      <Navitems />
+      <Outlet />
     </>
   );
 }
