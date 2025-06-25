@@ -60,6 +60,7 @@ const Banner = () => {
               <i className="icofont-search"></i>
             </button>
           </form>
+          <p></p>
           <p>{desc}</p>
           <ul className="lab-ul">
             {searchInput &&
