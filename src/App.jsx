@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <h1>Welcome , developper</h1>
+      <h1>Hello, React Developper</h1>
     </>
   )
 }
